@@ -53,11 +53,11 @@ export default function Title1 () {
           />
         </Box>
         <Headline className={`${CLASS_ROOT}__desc`} size="small">
-        Scan the QR code
+        Scan the QR code or click the QR code on the top off the page
         </Headline>
         <Image src="img/android.png" full='true' size="small"/>
         <Headline className={`${CLASS_ROOT}__desc`} size="small">
-        Let the apk download maybe grab a cup of coffee
+        Let the apk download and maybe grab a cup of coffee
         </Headline>
         <Java size="xlarge" colorIndex="grey-1" />
         <Headline className={`${CLASS_ROOT}__desc`} size="small">

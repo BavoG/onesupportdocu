@@ -48,7 +48,6 @@ export default function Title3() {
         </Heading>
       </Box>
       <Box className={`${CLASS_ROOT}__col-1`} pad={{vertical:"medium", horizontal:"medium"}}>
-
          <Home size="huge" colorIndex="light-1" />
       </Box>
     </InfographicSection>

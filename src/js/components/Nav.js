@@ -60,16 +60,16 @@ export default class Nav extends Component {
             </Headline>
             <div className="share__icons">
               <SocialShare type="email"
-              link="https://pages.github.hpe.com/bavo/onesupportdocu/"
+              link="https://bavog.github.io/onesupportdocu/"
               title="OneSupport - A GSD App"
               text="Check out the GSD app" />
               <SocialShare type="twitter"
-              link="https://pages.github.hpe.com/bavo/onesupportdocu/"
+              link="https://bavog.github.io/onesupportdocu/"
               text="@HPE GSD is stepping up." />
               <SocialShare type="facebook"
-              link="https://pages.github.hpe.com/bavo/onesupportdocu/" />
+              link="https://bavog.github.io/onesupportdocu/" />
               <SocialShare type="linkedin"
-              link="https://pages.github.hpe.com/bavo/onesupportdocu/"
+              link="https://bavog.github.io/onesupportdocu/"
               title="OneSupport - A GSD App"
               text="HPE's GSD is stepping up and created a new app to find the right people at the right time." />
             </div>
