@@ -7,11 +7,11 @@ import Box from 'grommet/components/Box';
 import Value from 'grommet/components/Value';
 import LinkNext from 'grommet/components/icons/base/LinkNext';
 import InfographicSection from '../components/InfographicSection';
-import Image from 'grommet/components/Image';
 
 import PlatformAndroid from 'grommet/components/icons/base/PlatformAndroid';
 import Java from 'grommet/components/icons/base/Java';
 import Like from 'grommet/components/icons/base/Like';
+import Anchor from 'grommet/components/Anchor';
 
 
 
@@ -53,9 +53,9 @@ export default function Title1 () {
           />
         </Box>
         <Headline className={`${CLASS_ROOT}__desc`} size="small">
-        Scan the QR code or click the QR code on the top off the page
+        Scan the QR code or click on the android logo to locate the apk
         </Headline>
-        <Image src="img/android.png" full='true' size="small"/>
+        {/*<Image src="img/android.png" full='true' size="small"/> */}
         <Headline className={`${CLASS_ROOT}__desc`} size="small">
         Let the apk download and maybe grab a cup of coffee
         </Headline>
@@ -67,7 +67,9 @@ export default function Title1 () {
       </Box>
       <Box pad={{vertical: "medium", between: "medium"}} direction="column"
          className={`${CLASS_ROOT}__col-1`}justify="center">
+         <Anchor href="https://mobilitycat-stg.itcs.hpe.com/catalog/uploads/com.hpeit.mobile.onesupport/Android/1.0.0/com.hpeit.mobile.onesupport.apk" target="_blank">
         <PlatformAndroid size="huge" colorIndex="grey-1" />
+        </Anchor>
       </Box>
 
 
