@@ -1,8 +1,6 @@
-# Grommet Vertical Narrative Infographic
+# OneSupport Vertical Narrative Infographic
 
-#### [Demo](https://grommet-vertical-vanilla.herokuapp.com/)
-
-This is the source code for a Grommet based universal single page. To run the website execute the following:
+To run the website execute the following:
 
   1. Install website NPM modules:
 
@@ -27,3 +25,5 @@ This is the source code for a Grommet based universal single page. To run the we
       ```
       $ node server/server.js
       ```
+
+I used grommet to create this page in virtually no time
