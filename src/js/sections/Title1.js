@@ -15,6 +15,7 @@ import Anchor from 'grommet/components/Anchor';
 
 
 
+
 const CLASS_ROOT = "title-section";
 
 export default function Title1 () {
@@ -53,7 +54,7 @@ export default function Title1 () {
           />
         </Box>
         <Headline className={`${CLASS_ROOT}__desc`} size="small">
-        Scan the QR code or click on the android logo to locate the apk
+        Scan the QR code or click on the Android logo to locate the apk
         </Headline>
         {/*<Image src="img/android.png" full='true' size="small"/> */}
         <Headline className={`${CLASS_ROOT}__desc`} size="small">

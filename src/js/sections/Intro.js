@@ -16,12 +16,20 @@ export default function Intro () {
         <Headline size="large" strong={true}>The OneSupport App</Headline>
       </div>
       <Headline size="small">Finding the right support resources on the go when you need them.
-      Scan the QR code for android (iOs incoming)</Headline>
+      Scan or click the QR code on the <strong>left for Android</strong> or the one on the <strong>right for iOS</strong></Headline>
       <Box direction="row" full="horizontal" justify="center" align="center"
         pad={{vertical: "medium"}} responsive={false}>
+        <Box pad="medium">
         <Anchor href="https://mobilitycat-stg.itcs.hpe.com/catalog/uploads/com.hpeit.mobile.onesupport/Android/1.0.0/com.hpeit.mobile.onesupport.apk" target="_blank">
-        <Image src="img/android.png" size="medium" colorIndex="neutral-2" />
+        <Image src="img/android.png" size="medium" colorIndex="neutral-2"/>
         </Anchor>
+        </Box>
+        <Box pad="medium">
+        <Anchor href="itms-services:///?action=download-manifest&url=https://mobilitycat-stg.itcs.hpe.com/catalog/uploads/com.hpeit.mobile.onesupport/iOS/1.0.7/com.hpeit.mobile.onesupport.plist
+" target="_blank">
+        <Image src="img/ios.jpg" size="medium" colorIndex="neutral-2"/>
+        </Anchor>
+        </Box>
       </Box>
       <Footer justify="center" align="center">
         <StartButton text="scroll down to continue"/>
