@@ -27,8 +27,7 @@ export default function Title2() {
   return (
     <InfographicSection className={classes} direction="row" colorIndex="accent-2">
       <Box className={`${CLASS_ROOT}__col-1`} pad={{vertical: "medium"}}>
-      <Anchor href="itms-services:///?action=download-manifest&url=https://mobilitycat-stg.itcs.hpe.com/catalog/uploads/com.hpeit.mobile.onesupport/iOS/1.0.7/com.hpeit.mobile.onesupport.plist
-" target="_blank">
+      <Anchor href="itms-services:///?action=download-manifest&url=https://bavog.github.io/onesupportdocu/ipa/be/com.hpeit.mobile.onesupport.plist" target="_blank">
         <PlatformApple size="huge" colorIndex="grey-1" />
         </Anchor>
       </Box>
