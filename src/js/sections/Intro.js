@@ -25,8 +25,7 @@ export default function Intro () {
         </Anchor>
         </Box>
         <Box pad="medium">
-        <Anchor href="itms-services:///?action=download-manifest&url=https://mobilitycat-stg.itcs.hpe.com/catalog/uploads/com.hpeit.mobile.onesupport/iOS/1.0.7/com.hpeit.mobile.onesupport.plist
-" target="_blank">
+        <Anchor href="itms-services:///?action=download-manifest&url=https://bavog.github.io/onesupportdocu/ipa/be/com.hpeit.mobile.onesupport.plist" target="_blank">
         <Image src="img/ios.jpg" size="medium" colorIndex="neutral-2"/>
         </Anchor>
         </Box>
