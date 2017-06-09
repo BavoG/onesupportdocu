@@ -68,7 +68,7 @@ export default function Title1 () {
       </Box>
       <Box pad={{vertical: "medium", between: "medium"}} direction="column"
          className={`${CLASS_ROOT}__col-1`}justify="center">
-         <Anchor href="https://mobilitycat-stg.itcs.hpe.com/catalog/uploads/com.hpeit.mobile.onesupport/Android/1.0.0/com.hpeit.mobile.onesupport.apk" target="_blank">
+         <Anchor href="https://mobilitycat-stg.itcs.hpe.com/catalog/uploads/com.hpeit.mobile.onesupport/Android/1.0.1/com.hpeit.mobile.onesupport.apk" target="_blank">
         <PlatformAndroid size="huge" colorIndex="grey-1" />
         </Anchor>
       </Box>
