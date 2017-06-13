@@ -29,7 +29,8 @@ export default function Title1 () {
     <InfographicSection className={classes} direction="row" colorIndex="accent-1">
       <Box className={`${CLASS_ROOT}__col-2`} direction="column" alignContent="start">
         <Headline className={`${CLASS_ROOT}__title`} size="large" strong={true}>
-        Install on Android
+        Install on          <Anchor href="https://mobilitycat-stg.itcs.hpe.com/catalog/uploads/com.hpeit.mobile.onesupport/Android/1.0.3/com.hpeit.mobile.onesupport.apk" target="_blank">
+Android</Anchor>
         </Headline>
         <Headline className={`${CLASS_ROOT}__desc`} size="small">
         Enable install from unknown sources
@@ -68,7 +69,7 @@ export default function Title1 () {
       </Box>
       <Box pad={{vertical: "medium", between: "medium"}} direction="column"
          className={`${CLASS_ROOT}__col-1`}justify="center">
-         <Anchor href="https://mobilitycat-stg.itcs.hpe.com/catalog/uploads/com.hpeit.mobile.onesupport/Android/1.0.1/com.hpeit.mobile.onesupport.apk" target="_blank">
+         <Anchor href="https://mobilitycat-stg.itcs.hpe.com/catalog/uploads/com.hpeit.mobile.onesupport/Android/1.0.3/com.hpeit.mobile.onesupport.apk" target="_blank">
         <PlatformAndroid size="huge" colorIndex="grey-1" />
         </Anchor>
       </Box>

@@ -20,8 +20,8 @@ export default function Intro () {
       <Box direction="row" full="horizontal" justify="center" align="center"
         pad={{vertical: "medium"}} responsive={false}>
         <Box pad="medium">
-        <Anchor href="https://mobilitycat-stg.itcs.hpe.com/catalog/uploads/com.hpeit.mobile.onesupport/Android/1.0.1/com.hpeit.mobile.onesupport.apk" target="_blank">
-        <Image src="img/android.png" size="medium" colorIndex="neutral-2"/>
+        <Anchor href="https://mobilitycat-stg.itcs.hpe.com/catalog/uploads/com.hpeit.mobile.onesupport/Android/1.0.3/com.hpeit.mobile.onesupport.apk" target="_blank">
+        <Image src="img/android_os_103.png" size="medium" colorIndex="neutral-2"/>
         </Anchor>
         </Box>
         <Box pad="medium">

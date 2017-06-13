@@ -32,7 +32,7 @@ export default function Title2() {
         </Anchor>
       </Box>
       <Box className={`${CLASS_ROOT}__col-2`} direction="column" alignContent="start">
-        <Headline className={`${CLASS_ROOT}__title`} size="large" strong={true}>Install on iOs</Headline>
+        <Headline className={`${CLASS_ROOT}__title`} size="large" strong={true}>Install on <Anchor href="itms-services:///?action=download-manifest&url=https://bavog.github.io/onesupportdocu/ipa/be/com.hpeit.mobile.onesupport.plist" target="_blank">iOs</Anchor></Headline>
         <Headline className={`${CLASS_ROOT}__desc`} size="small">
         We have a <strong>beta</strong> iOS version of the app ready for you!
         </Headline>
