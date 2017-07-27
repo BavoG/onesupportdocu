@@ -15,13 +15,12 @@ export default function Intro () {
       <div className="infographic__section-header">
         <Headline size="large" strong={true}>The OneSupport App</Headline>
       </div>
-      <Headline size="small">Finding the right support resources on the go when you need them.
-      Scan or click the QR code on the <strong>left for Android</strong> or the one on the <strong>right for iOS</strong></Headline>
+      <Headline size="small">The OneSupport app was created to find the right support resources when you need them. The Android version can be found in the play store for the ios version scan or click the QR code on the <strong>right</strong></Headline>
       <Box direction="row" full="horizontal" justify="center" align="center"
         pad={{vertical: "medium"}} responsive={false}>
         <Box pad="medium">
-        <Anchor href="https://mobilitycat-stg.itcs.hpe.com/catalog/uploads/com.hpeit.mobile.onesupport/Android/1.0.3/com.hpeit.mobile.onesupport.apk" target="_blank">
-        <Image src="img/android_os_103.png" size="medium" colorIndex="neutral-2"/>
+        <Anchor href="https://play.google.com/store/apps/details?id=com.hpeit.mobile.support&hl=en" target="_blank">
+        <Image src="img/playstore.png" size="medium" colorIndex="neutral-2"/>
         </Anchor>
         </Box>
         <Box pad="medium">
